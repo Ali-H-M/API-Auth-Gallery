@@ -16,3 +16,11 @@ This is a simple web application that displays fishing-related photos using the 
 - **MySQL** to store user data securely.
 - **Flickr API** to fetch fishing photos dynamically.
 - **Cookies** to remember user preferences (number of photos to display).
+
+## How to Run
+
+1. Install XAMPP
+
+2. Start Apache and MySQL/SQL Server
+
+3. Place all project files inside htdocs (e.g. C:\xampp\htdocs\fishing-project)
