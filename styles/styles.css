@@ -1,0 +1,163 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f8ff;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Center the form container */
+.signup-container {
+  max-width: 400px;
+  margin: 50px auto;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  flex: 1;
+}
+
+/* Headers */
+.signup-container h1 {
+  font-size: 2em;
+  color: #00509e;
+  margin-bottom: 10px;
+}
+
+.signup-container h2 {
+  font-size: 1.5em;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Labels and inputs */
+.signup-form label {
+  display: block;
+  font-weight: bold;
+  margin-top: 15px;
+  text-align: left;
+  color: #333;
+}
+
+.signup-form input {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+/* Buttons row */
+.button-row {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.button-row button {
+  flex: 1;
+  padding: 10px 0;
+  font-size: 1em;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+}
+
+/* Sign Up button */
+.signup-button {
+  background-color: #00509e;
+  color: white;
+}
+
+.signup-button:hover {
+  background-color: #003f7f;
+}
+
+/* Sign In button */
+.signin-button-up {
+  background-color: #ccc;
+  color: #333;
+}
+
+.signin-button-up:hover {
+  background-color: #999;
+}
+
+.signin-link {
+  display: flex;
+  flex: 1;
+  text-decoration: none;
+}
+
+/* Sign in button */
+.signin-button {
+  background-color: #00509e;
+  color: white;
+  padding: 10px 20px;
+  font-size: 1em;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+}
+
+.signin-button:hover {
+  background-color: #003f7f;
+}
+
+/* Success and error messages */
+.success,
+.error {
+  margin-top: 20px;
+  font-size: 1em;
+  text-align: center;
+}
+
+.success {
+  color: green;
+  font-weight: bold;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+}
+
+/* Responsive adjustments */
+@media (max-width: 500px) {
+  .button-row {
+    flex-direction: column;
+  }
+}
+
+/* Success and error messages */
+.success,
+.error {
+  margin-top: 20px;
+  font-size: 1em;
+  text-align: center;
+}
+
+/* sucess colors */
+.success {
+  color: green;
+  font-weight: bold;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+}
+
+footer {
+  background-color: #00509e;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  width: 100%;
+  margin-top: auto;
+}
